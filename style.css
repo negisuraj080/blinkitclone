@@ -218,51 +218,49 @@ img {
   }
 
   .d-flex.icon-container2 {
-    display: none!important;
+    display: none !important;
   }
 }
 
-
-@media only screen and (max-width: 375px){
-  #search-bar{
+@media only screen and (max-width: 425px) {
+  #search-bar {
     display: none;
   }
 
-  .logo{
+  .logo {
     width: 80px;
   }
 
-  #vertical-line{
+  #vertical-line {
     display: none;
   }
 
   button.btn.fs-5.mx-3.login-button {
     display: none;
-}
+  }
 
-#mycart-btn {
-  padding: 5px;
-  font-size: 15px!important;
-}
+  #mycart-btn {
+    padding: 5px;
+    font-size: 15px !important;
+  }
 
-img {
-  border-radius: 0px!important;
-}
+  img {
+    border-radius: 0px !important;
+  }
 
-section.product-cards {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  justify-content: center;
-}
+  section.product-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
 
-.useful-link-container{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 20px;
-}
+  .useful-link-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 
-.product-cards>div {
-  text-align: center;
-}
-
+  .product-cards > div {
+    text-align: center;
+  }
 }
